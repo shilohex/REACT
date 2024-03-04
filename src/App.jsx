@@ -16,7 +16,10 @@ function App() {
 
   return (
     <>
+     <h1 className='ttxt'><b>My Poodle's </b> </h1>
+      
       <div className='App'>
+       
       <Navbar className="bg-body-tertiary justify-content-between">
       <Form inline>
         <InputGroup>
@@ -43,43 +46,47 @@ function App() {
         </Row>
       </Form>
     </Navbar>
-  </div>
+  
 
   <CardGroup>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+      <Card className='card'>
+        <Card.Img variant="top" src="src\assets\poodle.webp" />
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title> <b>Standard</b> </Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+          Standard poodles are an energetic, 
+          intelligent dog breed that thrives with lots of activity, 
+          learning, and time with their human.
           </Card.Text>
         </Card.Body>
         <Card.Footer>
           <small className="text-muted">Last updated 3 mins ago</small>
         </Card.Footer>
       </Card>
+      
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src="src\assets\toypoodle2.jpeg" />
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>Toy poodle</Card.Title>
           <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{' '}
+          The toy poodle is a breed of toy dog known for its air of
+           distinction and dignity because of its elegant look,
+            springy gait, and proud manner of carrying itself.
           </Card.Text>
         </Card.Body>
         <Card.Footer>
           <small className="text-muted">Last updated 3 mins ago</small>
         </Card.Footer>
+     
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src="src\assets\teacup-poodle.jpg" />
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>Tea cup poodle</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
+          Teacup Poodles are an adorable, friendly and loving dog. 
+          Their small size means they can adapt to any environment 
+          and they don't have a lot of care needs.They weigh as little as 2kg, and be 20cm tall!
           </Card.Text>
         </Card.Body>
         <Card.Footer>
@@ -87,6 +94,7 @@ function App() {
         </Card.Footer>
       </Card>
     </CardGroup>. 
+    </div>
     </>
   )
 }
