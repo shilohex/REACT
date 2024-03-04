@@ -1,7 +1,9 @@
 .card{
  display: flex;
  flex-direction: row;
- margin-top: 80px;
+ margin-top: 90px;
+ width: 10px;
+ height: 10px;
 }
 
 .ttxt{
@@ -12,3 +14,8 @@
     margin-top: 10px;
 
 }
+/* .app{
+     display: flex;
+     flex-direction: row;
+
+} */
