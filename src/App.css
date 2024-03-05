@@ -4,6 +4,8 @@
  margin-top: 90px;
  width: 10px;
  height: 10px;
+ border: 1px solid black;
+ 
 }
 
 .ttxt{
@@ -19,3 +21,10 @@
      flex-direction: row;
 
 } */
+
+.btimg{
+    width: 500px;
+  height: 500px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

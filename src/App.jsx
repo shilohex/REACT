@@ -50,9 +50,9 @@ function App() {
 
   <CardGroup>
       <Card className='card'>
-        <Card.Img variant="top" src="src\assets\poodle.webp" />
+        <Card.Img variant="top" src="src\assets\poodle.webp" className='btimg'/>
         <Card.Body>
-          <Card.Title> <b>Standard</b> </Card.Title>
+          <Card.Title> <b>Standard Poodle</b> </Card.Title>
           <Card.Text>
           Standard poodles are an energetic, 
           intelligent dog breed that thrives with lots of activity, 
@@ -65,9 +65,9 @@ function App() {
       </Card>
       
       <Card>
-        <Card.Img variant="top" src="src\assets\toypoodle2.jpeg" />
+        <Card.Img variant="top" src="src\assets\toypoodle2.jpeg" className='btimg' />
         <Card.Body>
-          <Card.Title>Toy poodle</Card.Title>
+          <Card.Title><b>Toy poodle</b></Card.Title>
           <Card.Text>
           The toy poodle is a breed of toy dog known for its air of
            distinction and dignity because of its elegant look,
@@ -80,9 +80,9 @@ function App() {
      
       </Card>
       <Card>
-        <Card.Img variant="top" src="src\assets\teacup-poodle.jpg" />
+        <Card.Img variant="top" src="src\assets\teacup-poodle.jpg" className='btimg' />
         <Card.Body>
-          <Card.Title>Tea cup poodle</Card.Title>
+          <Card.Title> <b>Tea cup poodle</b> </Card.Title>
           <Card.Text>
           Teacup Poodles are an adorable, friendly and loving dog. 
           Their small size means they can adapt to any environment 
